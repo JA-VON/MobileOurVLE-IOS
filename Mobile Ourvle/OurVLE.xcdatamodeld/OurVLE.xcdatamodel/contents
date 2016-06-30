@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Course" representedClassName="PRODUCT_MODULE_NAME.Course" syncable="YES">
+        <attribute name="courseid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="fullname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="coursesections" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CourseSection" inverseName="section" inverseEntity="CourseSection" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="userCourses" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="CourseSection" representedClassName="PRODUCT_MODULE_NAME.CourseSection" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sectionid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="section" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Course" inverseName="coursesections" inverseEntity="Course" syncable="YES"/>
+        <relationship name="sectionmodules" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SectionModule" inverseName="section" inverseEntity="SectionModule" syncable="YES"/>
+    </entity>
+    <entity name="SectionModule" representedClassName="PRODUCT_MODULE_NAME.SectionModule" syncable="YES">
+        <attribute name="modname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="moduleid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="section" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CourseSection" inverseName="sectionmodules" inverseEntity="CourseSection" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="PRODUCT_MODULE_NAME.User" syncable="YES">
+        <attribute name="firstname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fullname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userpictureurl" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="userCourses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Course" inverseName="user" inverseEntity="Course" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Course" positionX="-513" positionY="179" width="128" height="118"/>
+        <element name="CourseSection" positionX="-344" positionY="194" width="128" height="103"/>
+        <element name="SectionModule" positionX="-155" positionY="179" width="128" height="118"/>
+        <element name="User" positionX="-704" positionY="149" width="128" height="148"/>
+    </elements>
+</model>

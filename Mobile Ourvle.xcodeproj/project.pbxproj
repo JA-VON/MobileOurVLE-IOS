@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AB9845D1B85106700D6A5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9845C1B85106700D6A5D4 /* AppDelegate.swift */; };
+		8AB984601B85106700D6A5D4 /* Mobile_Ourvle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9845E1B85106700D6A5D4 /* Mobile_Ourvle.xcdatamodeld */; };
+		8AB984621B85106700D6A5D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB984611B85106700D6A5D4 /* ViewController.swift */; };
+		8AB984671B85106700D6A5D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB984661B85106700D6A5D4 /* Images.xcassets */; };
+		8AB9846A1B85106700D6A5D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB984681B85106700D6A5D4 /* LaunchScreen.xib */; };
+		8AB984761B85106700D6A5D4 /* Mobile_OurvleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB984751B85106700D6A5D4 /* Mobile_OurvleTests.swift */; };
+		8AB984841B8510C800D6A5D4 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9847F1B8510C800D6A5D4 /* Course.swift */; };
+		8AB984851B8510C800D6A5D4 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB984801B8510C800D6A5D4 /* CourseSection.swift */; };
+		8AB984871B8510C800D6A5D4 /* SectionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB984821B8510C800D6A5D4 /* SectionModule.swift */; };
+		8AB984881B8510C800D6A5D4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB984831B8510C800D6A5D4 /* User.swift */; };
+		8AB984921B85143000D6A5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB984911B85143000D6A5D4 /* Main.storyboard */; };
+		8AB9849C1B8514A700D6A5D4 /* CourseListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB984931B8514A700D6A5D4 /* CourseListController.swift */; };
+		8AB9849D1B8514A700D6A5D4 /* ForumListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB984941B8514A700D6A5D4 /* ForumListController.swift */; };
+		8AB9849E1B8514A700D6A5D4 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB984951B8514A700D6A5D4 /* LoginController.swift */; };
+		8AB9849F1B8514A700D6A5D4 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB984961B8514A700D6A5D4 /* Manager.swift */; };
+		8AB984A01B8514A700D6A5D4 /* MoodleRestFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB984971B8514A700D6A5D4 /* MoodleRestFunctions.swift */; };
+		8AB984A11B8514A700D6A5D4 /* OptionsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB984981B8514A700D6A5D4 /* OptionsListController.swift */; };
+		8AB984A21B8514A700D6A5D4 /* RestCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB984991B8514A700D6A5D4 /* RestCall.swift */; };
+		8AB984A31B8514A700D6A5D4 /* SiteInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9849A1B8514A700D6A5D4 /* SiteInfo.xcdatamodeld */; };
+		8AB984A61B8514E800D6A5D4 /* OurVLE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AB984A41B8514E800D6A5D4 /* OurVLE.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AB984701B85106700D6A5D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AB9844F1B85106700D6A5D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AB984561B85106700D6A5D4;
+			remoteInfo = "Mobile Ourvle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AB984571B85106700D6A5D4 /* Mobile Ourvle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Ourvle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB9845B1B85106700D6A5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB9845C1B85106700D6A5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AB9845F1B85106700D6A5D4 /* Mobile_Ourvle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mobile_Ourvle.xcdatamodel; sourceTree = "<group>"; };
+		8AB984611B85106700D6A5D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AB984661B85106700D6A5D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8AB984691B85106700D6A5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8AB9846F1B85106700D6A5D4 /* Mobile OurvleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile OurvleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB984741B85106700D6A5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB984751B85106700D6A5D4 /* Mobile_OurvleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_OurvleTests.swift; sourceTree = "<group>"; };
+		8AB9847F1B8510C800D6A5D4 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Course.swift; path = ../../OurVLE/Course.swift; sourceTree = "<group>"; };
+		8AB984801B8510C800D6A5D4 /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseSection.swift; path = ../../OurVLE/CourseSection.swift; sourceTree = "<group>"; };
+		8AB984821B8510C800D6A5D4 /* SectionModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SectionModule.swift; path = ../../OurVLE/SectionModule.swift; sourceTree = "<group>"; };
+		8AB984831B8510C800D6A5D4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../OurVLE/User.swift; sourceTree = "<group>"; };
+		8AB9848F1B85141400D6A5D4 /* Mainn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mainn.storyboard; sourceTree = "<group>"; };
+		8AB984911B85143000D6A5D4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8AB984931B8514A700D6A5D4 /* CourseListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseListController.swift; sourceTree = "<group>"; };
+		8AB984941B8514A700D6A5D4 /* ForumListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumListController.swift; sourceTree = "<group>"; };
+		8AB984951B8514A700D6A5D4 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		8AB984961B8514A700D6A5D4 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		8AB984971B8514A700D6A5D4 /* MoodleRestFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodleRestFunctions.swift; sourceTree = "<group>"; };
+		8AB984981B8514A700D6A5D4 /* OptionsListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsListController.swift; sourceTree = "<group>"; };
+		8AB984991B8514A700D6A5D4 /* RestCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestCall.swift; sourceTree = "<group>"; };
+		8AB9849B1B8514A700D6A5D4 /* SiteInfo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SiteInfo.xcdatamodel; sourceTree = "<group>"; };
+		8AB984A51B8514E800D6A5D4 /* OurVLE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OurVLE.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AB984541B85106700D6A5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB9846C1B85106700D6A5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AB9844E1B85106700D6A5D4 = {
+			isa = PBXGroup;
+			children = (
+				8AB984591B85106700D6A5D4 /* Mobile Ourvle */,
+				8AB984721B85106700D6A5D4 /* Mobile OurvleTests */,
+				8AB984581B85106700D6A5D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AB984581B85106700D6A5D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AB984571B85106700D6A5D4 /* Mobile Ourvle.app */,
+				8AB9846F1B85106700D6A5D4 /* Mobile OurvleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AB984591B85106700D6A5D4 /* Mobile Ourvle */ = {
+			isa = PBXGroup;
+			children = (
+				8AB984A41B8514E800D6A5D4 /* OurVLE.xcdatamodeld */,
+				8AB984931B8514A700D6A5D4 /* CourseListController.swift */,
+				8AB984941B8514A700D6A5D4 /* ForumListController.swift */,
+				8AB984951B8514A700D6A5D4 /* LoginController.swift */,
+				8AB984961B8514A700D6A5D4 /* Manager.swift */,
+				8AB984971B8514A700D6A5D4 /* MoodleRestFunctions.swift */,
+				8AB984981B8514A700D6A5D4 /* OptionsListController.swift */,
+				8AB984991B8514A700D6A5D4 /* RestCall.swift */,
+				8AB9849A1B8514A700D6A5D4 /* SiteInfo.xcdatamodeld */,
+				8AB984911B85143000D6A5D4 /* Main.storyboard */,
+				8AB9847F1B8510C800D6A5D4 /* Course.swift */,
+				8AB984801B8510C800D6A5D4 /* CourseSection.swift */,
+				8AB984821B8510C800D6A5D4 /* SectionModule.swift */,
+				8AB984831B8510C800D6A5D4 /* User.swift */,
+				8AB9845C1B85106700D6A5D4 /* AppDelegate.swift */,
+				8AB984611B85106700D6A5D4 /* ViewController.swift */,
+				8AB984661B85106700D6A5D4 /* Images.xcassets */,
+				8AB984681B85106700D6A5D4 /* LaunchScreen.xib */,
+				8AB9848F1B85141400D6A5D4 /* Mainn.storyboard */,
+				8AB9845E1B85106700D6A5D4 /* Mobile_Ourvle.xcdatamodeld */,
+				8AB9845A1B85106700D6A5D4 /* Supporting Files */,
+			);
+			path = "Mobile Ourvle";
+			sourceTree = "<group>";
+		};
+		8AB9845A1B85106700D6A5D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AB9845B1B85106700D6A5D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AB984721B85106700D6A5D4 /* Mobile OurvleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AB984751B85106700D6A5D4 /* Mobile_OurvleTests.swift */,
+				8AB984731B85106700D6A5D4 /* Supporting Files */,
+			);
+			path = "Mobile OurvleTests";
+			sourceTree = "<group>";
+		};
+		8AB984731B85106700D6A5D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AB984741B85106700D6A5D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AB984561B85106700D6A5D4 /* Mobile Ourvle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB984791B85106700D6A5D4 /* Build configuration list for PBXNativeTarget "Mobile Ourvle" */;
+			buildPhases = (
+				8AB984531B85106700D6A5D4 /* Sources */,
+				8AB984541B85106700D6A5D4 /* Frameworks */,
+				8AB984551B85106700D6A5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobile Ourvle";
+			productName = "Mobile Ourvle";
+			productReference = 8AB984571B85106700D6A5D4 /* Mobile Ourvle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AB9846E1B85106700D6A5D4 /* Mobile OurvleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB9847C1B85106700D6A5D4 /* Build configuration list for PBXNativeTarget "Mobile OurvleTests" */;
+			buildPhases = (
+				8AB9846B1B85106700D6A5D4 /* Sources */,
+				8AB9846C1B85106700D6A5D4 /* Frameworks */,
+				8AB9846D1B85106700D6A5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AB984711B85106700D6A5D4 /* PBXTargetDependency */,
+			);
+			name = "Mobile OurvleTests";
+			productName = "Mobile OurvleTests";
+			productReference = 8AB9846F1B85106700D6A5D4 /* Mobile OurvleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AB9844F1B85106700D6A5D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Javon Davis";
+				TargetAttributes = {
+					8AB984561B85106700D6A5D4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8AB9846E1B85106700D6A5D4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8AB984561B85106700D6A5D4;
+					};
+				};
+			};
+			buildConfigurationList = 8AB984521B85106700D6A5D4 /* Build configuration list for PBXProject "Mobile Ourvle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AB9844E1B85106700D6A5D4;
+			productRefGroup = 8AB984581B85106700D6A5D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AB984561B85106700D6A5D4 /* Mobile Ourvle */,
+				8AB9846E1B85106700D6A5D4 /* Mobile OurvleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AB984551B85106700D6A5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB9846A1B85106700D6A5D4 /* LaunchScreen.xib in Resources */,
+				8AB984671B85106700D6A5D4 /* Images.xcassets in Resources */,
+				8AB984921B85143000D6A5D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB9846D1B85106700D6A5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AB984531B85106700D6A5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB984841B8510C800D6A5D4 /* Course.swift in Sources */,
+				8AB984621B85106700D6A5D4 /* ViewController.swift in Sources */,
+				8AB984A31B8514A700D6A5D4 /* SiteInfo.xcdatamodeld in Sources */,
+				8AB984601B85106700D6A5D4 /* Mobile_Ourvle.xcdatamodeld in Sources */,
+				8AB984871B8510C800D6A5D4 /* SectionModule.swift in Sources */,
+				8AB9845D1B85106700D6A5D4 /* AppDelegate.swift in Sources */,
+				8AB984851B8510C800D6A5D4 /* CourseSection.swift in Sources */,
+				8AB9849D1B8514A700D6A5D4 /* ForumListController.swift in Sources */,
+				8AB984A61B8514E800D6A5D4 /* OurVLE.xcdatamodeld in Sources */,
+				8AB984A01B8514A700D6A5D4 /* MoodleRestFunctions.swift in Sources */,
+				8AB984A11B8514A700D6A5D4 /* OptionsListController.swift in Sources */,
+				8AB9849C1B8514A700D6A5D4 /* CourseListController.swift in Sources */,
+				8AB9849F1B8514A700D6A5D4 /* Manager.swift in Sources */,
+				8AB984A21B8514A700D6A5D4 /* RestCall.swift in Sources */,
+				8AB984881B8510C800D6A5D4 /* User.swift in Sources */,
+				8AB9849E1B8514A700D6A5D4 /* LoginController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB9846B1B85106700D6A5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB984761B85106700D6A5D4 /* Mobile_OurvleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AB984711B85106700D6A5D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AB984561B85106700D6A5D4 /* Mobile Ourvle */;
+			targetProxy = 8AB984701B85106700D6A5D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AB984681B85106700D6A5D4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AB984691B85106700D6A5D4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AB984771B85106700D6A5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AB984781B85106700D6A5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AB9847A1B85106700D6A5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mobile Ourvle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uwi.mona.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AB9847B1B85106700D6A5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mobile Ourvle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uwi.mona.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8AB9847D1B85106700D6A5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mobile OurvleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uwi.mona.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile Ourvle.app/Mobile Ourvle";
+			};
+			name = Debug;
+		};
+		8AB9847E1B85106700D6A5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mobile OurvleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uwi.mona.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile Ourvle.app/Mobile Ourvle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AB984521B85106700D6A5D4 /* Build configuration list for PBXProject "Mobile Ourvle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB984771B85106700D6A5D4 /* Debug */,
+				8AB984781B85106700D6A5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB984791B85106700D6A5D4 /* Build configuration list for PBXNativeTarget "Mobile Ourvle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB9847A1B85106700D6A5D4 /* Debug */,
+				8AB9847B1B85106700D6A5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB9847C1B85106700D6A5D4 /* Build configuration list for PBXNativeTarget "Mobile OurvleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB9847D1B85106700D6A5D4 /* Debug */,
+				8AB9847E1B85106700D6A5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8AB9845E1B85106700D6A5D4 /* Mobile_Ourvle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8AB9845F1B85106700D6A5D4 /* Mobile_Ourvle.xcdatamodel */,
+			);
+			currentVersion = 8AB9845F1B85106700D6A5D4 /* Mobile_Ourvle.xcdatamodel */;
+			path = Mobile_Ourvle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		8AB9849A1B8514A700D6A5D4 /* SiteInfo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8AB9849B1B8514A700D6A5D4 /* SiteInfo.xcdatamodel */,
+			);
+			currentVersion = 8AB9849B1B8514A700D6A5D4 /* SiteInfo.xcdatamodel */;
+			path = SiteInfo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		8AB984A41B8514E800D6A5D4 /* OurVLE.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8AB984A51B8514E800D6A5D4 /* OurVLE.xcdatamodel */,
+			);
+			currentVersion = 8AB984A51B8514E800D6A5D4 /* OurVLE.xcdatamodel */;
+			path = OurVLE.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8AB9844F1B85106700D6A5D4 /* Project object */;
+}
